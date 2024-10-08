@@ -1,3 +1,185 @@
 footer{
     margin-top: 3%;
 }
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #007bff !important; /* Bootstrap primary color */
+}
+
+.nav-link:hover {
+    color: #0056b3 !important; /* Darker blue on hover */
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('your-hero-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Container Styles */
+.container {
+    margin-top: 20px;
+}
+
+/* Form Styles */
+.form-control {
+    border-radius: 0;
+}
+
+.btn-primary {
+    border-radius: 0;
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+}
+
+.about-section h2 {
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    margin-bottom: 20px;
+}
+
+.row > div {
+    margin-bottom: 30px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem; /* Reduce font size on smaller screens */
+    }
+
+    .hero p {
+        font-size: 1.25rem; /* Reduce font size on smaller screens */
+    }
+
+    .about-section h2 {
+        font-size: 2rem; /* Reduce font size for about section */
+    }
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #007bff !important; /* Bootstrap primary color */
+}
+
+.nav-link:hover {
+    color: #0056b3 !important; /* Darker blue on hover */
+}
+
+/* Registration Form Styles */
+section.py-5 {
+    padding: 60px 15px; /* Add padding for smaller devices */
+}
+
+.container {
+    max-width: 100%; /* Ensure the container uses full width */
+}
+
+/* Form Styles */
+.form-control {
+    border-radius: 0;
+}
+
+/* Button Styles */
+.btn-primary {
+    border-radius: 0;
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem; /* Adjust brand size */
+    }
+
+    .hero h1 {
+        font-size: 2.5rem; /* Reduce font size on smaller screens */
+    }
+
+    .hero p {
+        font-size: 1.25rem; /* Reduce font size on smaller screens */
+    }
+
+    .form-group {
+        margin-bottom: 20px; /* Add more space between form elements */
+    }
+
+    .form-control {
+        font-size: 1rem; /* Ensure inputs are readable */
+    }
+
+    .btn-primary {
+        font-size: 1.1rem; /* Slightly larger button text */
+    }
+
+    footer {
+        padding: 15px; /* Adjust footer padding */
+    }
+}
+
+/* Specific styles for large screens */
+@media (min-width: 769px) {
+    .container {
+        max-width: 600px; /* Limit width for larger screens */
+    }
+}
