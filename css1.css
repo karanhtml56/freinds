@@ -1,0 +1,45 @@
+/* General Body Styles */
+body {
+    background-color: #f8f9fa; /* Light background for contrast */
+    font-family: Arial, sans-serif; /* Custom font for better readability */
+}
+
+/* Section Styles */
+section {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 30px; /* Padding around the form */
+}
+
+/* Form Title Styles */
+h2 {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+/* Form Control Styles */
+.form-control, .form-select {
+    border-radius: 4px; /* Slightly rounded borders for inputs */
+}
+
+/* Submit Button Styles */
+.btn {
+    border-radius: 4px; /* Match input field styles */
+}
+
+/* Footer Styles */
+footer {
+    position: relative; /* Ensure footer is at the bottom */
+    margin-top: 20px; /* Space above footer */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    section {
+        padding: 20px; /* Less padding on very small screens */
+    }
+    
+    h2 {
+        font-size: 24px; /* Smaller title font size */
+    }
+}
